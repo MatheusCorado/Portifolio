@@ -23,7 +23,7 @@
       </ul>
     </nav>
   </header>
-  <main class="container sobre">
+  <main id="sobre" class="container sobre">
     <div class="sobre-conteudo">
       <h1 class="cor-12 font-grande">Olá , Me chamo <span class="cor-p-1">Matheus</span></h1>
       <h2 class="font-media cor-10">Desenvolvedor Front-End</h2>
@@ -74,7 +74,7 @@
       </div>
     </div>
   </article>
-  <article aria-label="projetos" class="projetos">
+  <article id="projetos" aria-label="projetos" class="projetos">
     <div class="container">
       <h1 class="cor-12 font-grande">Projetos<span class="cor-p-1">.</span></h1>
     </div>
@@ -103,18 +103,18 @@
       </ul>
     </div>
   </article>
-  <article aria-label="contato" class="contato-bg">
+  <article id="contato" aria-label="contato" class="contato-bg">
     <div class="container contato">
       <div>
-        <h1 class="cor-1 font-grande">Habilidades<span class="cor-p-1">.</span></h1>
+        <h1 class="cor-1 font-grande">Contato<span class="cor-p-1">.</span></h1>
         <p class="cor-1 font-paragrafo">Ficou interessado em conversar sobre um projeto ou tem alguma dúvida? Fique à vontade para entrar em contato! Estou disponível para discutir novas oportunidades, ideias ou até mesmo colaborar em novos desafios. Vamos conversar e encontrar a melhor forma de trabalharmos juntos!</p>
-        <ul class="contato-lista">
-          <li><img src="./img/svg/github.svg" alt="github"></li>
-          <li><img src="./img/svg/linkedin.svg" alt="linkedin"></li>
-          <li><img src="./img/svg/facebook.svg" alt="facebook"></li>
-          <li><img src="./img/svg/instagram.svg" alt="instagram"></li>
-        </ul>
       </div>
+      <ul class="contato-lista">
+        <li><img src="./img/svg/github.svg" alt="github"></li>
+        <li><img src="./img/svg/linkedin.svg" alt="linkedin"></li>
+        <li><img src="./img/svg/facebook.svg" alt="facebook"></li>
+        <li><img src="./img/svg/instagram.svg" alt="instagram"></li>
+      </ul>
       <form action="/">
         <div class="form">
           <div class="form-nome">
@@ -131,12 +131,18 @@
           </div>
           <div class="form-mensagem">
             <label class="font-form cor-11" for="mensagem">Mensagem</label>
-            <textarea class="font-form-2 cor-7" name="mensagem" id="mensagem" rows="10" placeholder="O que você precisa?"></textarea>
+            <textarea style="resize: none" class="font-form-2 cor-7" name="mensagem" id="mensagem" rows="10" placeholder="O que você precisa?"></textarea>
           </div>
+          <button class="botao">ENVIAR MENSAGEM</button>
         </div>
       </form>
     </div>
   </article>
+  <footer>
+    <div class="container">
+      <p class="font-pequena">Copyright © 2024 <a class="cor-p-1" href="/">Matheuscorado.com</a> .Todos os direitos reservados.</p>
+    </div>
+  </footer>
 </body>
 
 </html>
