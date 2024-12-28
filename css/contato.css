@@ -1,0 +1,43 @@
+.contato-bg {
+  background: var(--c10);
+}
+.contato {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  h1 {
+    padding-bottom: 40px;
+  }
+  p {
+    padding-bottom: 60px;
+  }
+}
+.contato-lista {
+  display: flex;
+  gap: 40px;
+}
+.form {
+  background: var(--w);
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 60px 30px;
+  gap: 20px;
+  input,
+  textarea {
+    background: var(--c1);
+    border: 1px solid var(--c2);
+    border-radius: 5px;
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+.form-nome,
+.form-telefone,
+.form-email,
+.form-mensagem {
+  grid-column: 1/-1;
+}

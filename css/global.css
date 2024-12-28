@@ -97,7 +97,18 @@
   font-size: 1.125rem;
   line-height: 1.33;
 }
-
+.font-form {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.font-form-2 {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
 /* Estilos responsivos para tablet */
 @media (max-width: 1024px) {
   .font-grande {
