@@ -1,0 +1,27 @@
+.habilidades-bg {
+  background-color: var(--c11);
+}
+.habilidades {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  h1 {
+    padding-bottom: 60px;
+  }
+}
+.habilidades-lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 40px;
+  li {
+    background-color: var(--c9);
+    padding: 10px 20px;
+    justify-content: space-between;
+  }
+}
+.lista-porcentagem {
+  text-align: right;
+}
+.html {
+  display: grid;
+  grid-template-columns: 4fr 9fr 3fr;
+}
